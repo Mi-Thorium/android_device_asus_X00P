@@ -45,6 +45,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
     $(LOCAL_PATH)/audio/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_mtp.xml
 
+# Filesystem
+# Enable wider inodes for project quotas
+# Later, replace with $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
+PRODUCT_QUOTA_PROJID := 1
+PRODUCT_PRODUCT_PROPERTIES += ro.emulated_storage.projid=1
+
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/msm8952-snd-card-mtp_Button_Jack.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/msm8952-snd-card-mtp_Button_Jack.kl \
