@@ -13,3 +13,7 @@ persist.camera.stats.test=5
 ro.crypto.dm_default_key.options_format.version=2
 ro.crypto.volume.metadata.method=dm-default-key
 ro.crypto.volume.filenames_mode=aes-256-cts
+
+# Asus X00P - SoC
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=MSM8937
