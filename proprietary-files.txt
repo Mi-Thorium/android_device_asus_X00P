@@ -637,3 +637,6 @@ vendor/lib64/libsensor_reg.so
 vendor/lib64/sensors.ssc.so
 -vendor/lib/libsensor1.so
 -vendor/lib64/libsensor1.so
+
+# Sensor config
+vendor/etc/sensors/sensor_def_qcomdev.conf
