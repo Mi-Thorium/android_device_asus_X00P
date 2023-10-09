@@ -47,6 +47,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/msm8952-snd-card-mtp_Button_Jack.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/msm8952-snd-card-mtp_Button_Jack.kl \
     $(LOCAL_PATH)/keylayout/qcom-tpd.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/qcom-tpd.kl
 
+# Recovery
+PRODUCT_COPY_FILES += \
+    vendor/asus/X00P/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_RECOVERY)/root/system/bin/hvdcp_opti
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.acdbdata.sh \
