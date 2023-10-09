@@ -7,6 +7,9 @@
 # Audio
 TARGET_DISABLE_AUDIO := true
 
+# Cryptfshw
+TARGET_EXCLUDE_CRYPTFSHW := true
+
 # ConsumerIR
 TARGET_HAS_NO_CONSUMERIR := true
 

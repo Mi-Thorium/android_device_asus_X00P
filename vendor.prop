@@ -8,3 +8,8 @@ media.camera.ts.monotonic=1
 persist.camera.gyro.disable=0
 persist.camera.isp.clock.optmz=0
 persist.camera.stats.test=5
+
+# Asus X00P - Encryption
+ro.crypto.dm_default_key.options_format.version=2
+ro.crypto.volume.metadata.method=dm-default-key
+ro.crypto.volume.filenames_mode=aes-256-cts
