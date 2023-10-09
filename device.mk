@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Audio
+TARGET_DISABLE_AUDIO := true
+
 # ConsumerIR
 TARGET_HAS_NO_CONSUMERIR := true
 
