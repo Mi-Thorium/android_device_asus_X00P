@@ -1,4 +1,5 @@
 # Proprietary files - from UL-ASUS_X00P-WW-AOSP-17.00.2003.23-user build, unless pinned
+# X00PD Package version: ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 
 # Audio-ACDB
 vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb
@@ -1639,6 +1640,9 @@ vendor/lib64/libmmcamera2_stats_algorithm.so
 vendor/lib64/libmmcamera_dbg.so
 vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
+
+# Charger - from X00PD
+vendor/bin/hvdcp_opti
 
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service

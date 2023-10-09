@@ -1,0 +1,10 @@
+# Fingerprint
+fp.version.driver                       u:object_r:fingerprint_prop:s0
+goodix.fp.                              u:object_r:fingerprint_prop:s0
+goodix.version.                         u:object_r:fingerprint_prop:s0
+persist.sys.fp.                         u:object_r:fingerprint_prop:s0
+persist.vendor.sys.fp.                  u:object_r:fingerprint_prop:s0
+ro.boot.fp.                             u:object_r:fingerprint_prop:s0
+ro.boot.fpsensor                        u:object_r:fingerprint_prop:s0
+sys.fp.                                 u:object_r:fingerprint_prop:s0
+vendor.cdfinger.fp                      u:object_r:fingerprint_prop:s0

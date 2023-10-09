@@ -38,9 +38,19 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
     $(LOCAL_PATH)/audio/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_mtp.xml
 
+# Keylayout
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/keylayout/msm8952-snd-card-mtp_Button_Jack.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/msm8952-snd-card-mtp_Button_Jack.kl \
+    $(LOCAL_PATH)/keylayout/qcom-tpd.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/qcom-tpd.kl
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.X00P
+
+# Rootdir
+PRODUCT_PACKAGES += \
+    init.fingerprint.rc \
+    init.xiaomi.device.rc
 
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += \
