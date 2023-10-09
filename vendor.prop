@@ -2,6 +2,10 @@
 ro.config.media_vol_steps=25
 ro.config.vc_call_vol_steps=7
 
+# Asus X00P - Bluetooth
+bluetooth.le.disable_apcf_extended_features=1
+bluetooth.sco.disable_enhanced_connection=1
+
 # Asus X00P - Camera
 camera.lowpower.record.enable=1
 media.camera.ts.monotonic=1
