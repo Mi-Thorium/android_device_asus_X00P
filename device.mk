@@ -52,6 +52,7 @@ PRODUCT_PACKAGES += \
 
 # Rootdir
 PRODUCT_PACKAGES += \
+    init.acdbdata.sh \
     init.fingerprint.rc \
     init.xiaomi.device.rc
 
