@@ -21,6 +21,7 @@ TARGET_USES_DEVICE_SPECIFIC_KEYMASTER := true
 
 # Inherit from mithorium-common
 $(call inherit-product, device/xiaomi/mithorium-common/msm8937.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1440
