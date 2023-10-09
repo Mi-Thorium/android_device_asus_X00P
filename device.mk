@@ -46,10 +46,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/msm8952-snd-card-mtp_Button_Jack.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/msm8952-snd-card-mtp_Button_Jack.kl \
     $(LOCAL_PATH)/keylayout/qcom-tpd.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/qcom-tpd.kl
 
-# Lights
-PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.X00P
-
 # Rootdir
 PRODUCT_PACKAGES += \
     init.acdbdata.sh \
