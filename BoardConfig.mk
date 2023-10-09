@@ -4,8 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# inherit from common msm8937-common
--include device/asus/msm8937-common/BoardConfigCommon.mk
+# inherit from common mithorium-common
+-include device/xiaomi/mithorium-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/asus/X00P
 
